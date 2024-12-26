@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const config = {
-	SESSION_ID: process.env.SESSION_ID || '',
+	SESSION_ID: process.env.SESSION_ID || 'XSTRO_05_33_57',
 	SUDO: process.env.SUDO || '',
 	API_ID: process.env.API_ID || 'https://xstro-api1-e3fa63d29cbe.herokuapp.com',
 	BOT_INFO: process.env.BOT_INFO || 'Astro;Xstro_Bot',
